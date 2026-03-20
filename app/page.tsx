@@ -168,7 +168,7 @@ export default function Page() {
                 <SectionImage src="/images/heating-air-control-screen.png" alt="ThermaBlue system control view" />
                 <div className="content-card pete-card">
                   <div className="pete-grid">
-                    <img src="/images/pete-explainer.png" alt="Pete mascot explaining ThermaBlue" className="pete-image" />
+                    <img src="/images/pete-explainer.png" alt="Pete mascot explaining ThermaBlue" className="pete-image pete-float" />
                     <div>
                       <div className="small-pill">Pete appears here first</div>
                       <div className="card-title">Clear, warm, and selective.</div>
