@@ -148,3 +148,21 @@ img { display: block; max-width: 100%; }
   .header-row, .footer-row { flex-direction: column; align-items: flex-start; }
   .section { padding: 72px 0; }
 }
+
+@keyframes peteFloat {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-6px) rotate(-1deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+.pete-float {
+  animation: peteFloat 5s ease-in-out infinite;
+  transform-origin: center center;
+  will-change: transform;
+}
