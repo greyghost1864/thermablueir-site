@@ -50,16 +50,18 @@ const faqs = [
   },
 ];
 
-function SectionImage({ src, alt, className = '' }: { src: string; alt: string; className?: string }) {
+function SectionImage(props: { src: string; alt: string; className?: string }) {
+  const { src, alt, className = '' } = props
+
   return (
-    <div className={`image-card ${className}`}>
+    <div className={'image-card' + (className ? ' ' + className : '')}>
       <img src={src} alt={alt} />
     </div>
-  );
+  )
 }
 
-function Eyebrow({ children }: { children: React.ReactNode }) {
-  return <div className="eyebrow">{children}</div>;
+function Eyebrow(props: { children: any }) {
+  return <div className="eyebrow">{props.children}</div>
 }
 
 export default function Page() {
@@ -162,9 +164,9 @@ export default function Page() {
                 on hype.
               </p>
             </div>
-            <div className="heating-grid">
+            <div className="stack-grid">
               <SectionImage src="/images/heating-air-master-drive.png" alt="ThermaBlue Heating and Air system" />
-              <div className="stack-grid">
+              <div className="content-card pete-card">
                 <SectionImage src="/images/heating-air-control-screen.png" alt="ThermaBlue system control view" />
                 <div className="content-card pete-card">                  
                   <img src="/images/pete-explainer.png?v=2" alt="Pete mascot explaining ThermaBlue" className="pete-image pete-float-a" />
