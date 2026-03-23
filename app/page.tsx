@@ -57,15 +57,14 @@ function SectionImage(props: { src: string; alt: string; className?: string }) {
     <div className={`image-card ${className}`.trim()}>
       <img src={src} alt={alt} />
     </div>
-  );
+  )
 }
 
 function Eyebrow(props: { children: any }) {
   return <div className="eyebrow">{props.children}</div>;
 }
 
-export default function Page() {
-  
+export default function Page() {  
   return (
     <div className="page-shell">
       <header className="site-header">
