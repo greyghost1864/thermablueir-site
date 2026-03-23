@@ -161,35 +161,24 @@ img { display: block; max-width: 100%; }
   }
 }
 
-.pete-float {
+.pete-float-a {
   animation: peteFloat 5s ease-in-out infinite;
   transform-origin: center center;
   will-change: transform;
 }
 
-@keyframes peteFloat {
-  0% {
-    transform: translateY(0px) rotate(0deg);
-  }
-  50% {
-    transform: translateY(-6px) rotate(-1deg);
-  }
-  100% {
-    transform: translateY(0px) rotate(0deg);
-  }
+.pete-float-b {
+  animation: peteFloat 5.8s ease-in-out infinite;
+  animation-delay: 0.3s;
+  transform-origin: center center;
+  will-change: transform;
 }
 
-.pete-float-a {
-  animation: peteFloat 5s ease-in-out infinite;
+.pete-float-c {
+  animation: peteFloat 5.2s ease-in-out infinite;
+  animation-delay: 0.6s;
+  transform-origin: center center;
+  will-change: transform;
 }
 
-.pete-float-d {
-  animation: peteFloat 6.4s ease-in-out infinite;
-  animation-delay: 0.4s;
-}
 
-.pete-single {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
