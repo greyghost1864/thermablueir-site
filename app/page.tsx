@@ -167,7 +167,7 @@ export default function Page() {
               <div className="stack-grid">
                 <SectionImage src="/images/heating-air-control-screen.png" alt="ThermaBlue system control view" />
                 <div className="content-card pete-card">
-                  <div className="pete-grid">
+                  <div className="pete-single">
                   <img src="/images/pete-explainer.png" alt="Pete mascot explaining ThermaBlue" className="pete-image pete-float-a" />
                     <div>
                       <div className="small-pill">Pete appears here first</div>
