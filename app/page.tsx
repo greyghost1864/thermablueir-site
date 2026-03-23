@@ -166,8 +166,7 @@ export default function Page() {
               <SectionImage src="/images/heating-air-master-drive.png" alt="ThermaBlue Heating and Air system" />
               <div className="stack-grid">
                 <SectionImage src="/images/heating-air-control-screen.png" alt="ThermaBlue system control view" />
-                <div className="content-card pete-card">
-                  <div className="pete-image pete-float-a"
+                <div className="content-card pete-card">                  
                   <img src="/images/pete-explainer.png" alt="Pete mascot explaining ThermaBlue" className="pete-image pete-float-a" />
                     <div>
                       <div className="small-pill">Pete appears here first</div>
@@ -235,7 +234,7 @@ export default function Page() {
                   </div>
                 ))}
               </div>
-              <div className="pete-image pete-float-b" 
+               <div className="content-card side-card">
                <img src="/images/pete-blueprint.png" alt="Pete holding blueprint" className="pete-image pete-float-b" />
                 <div className="card-title">Pete helps explain, not reveal.</div>
                 <p>
@@ -277,7 +276,7 @@ export default function Page() {
                   </div>
                 ))}
               </div>
-              <div className="pete-image pete-float-c"
+              <div className="content-card side-card">
                <img src="/images/pete-guide.png" alt="Pete guiding the FAQ" className="pete-image pete-float-c" />
                 <div className="card-title">Pete helps here, too.</div>
                 <p>
