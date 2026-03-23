@@ -51,7 +51,7 @@ const faqs = [
 ];
 
 function SectionImage(props: { src: string; alt: string; className?: string }) {
-  const { src, alt, className = '' } = props;
+  const { src, alt, className = '' } = props
 
   return (
     <div className={`image-card ${className}`.trim()}>
