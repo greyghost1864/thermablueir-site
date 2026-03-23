@@ -187,3 +187,9 @@ img { display: block; max-width: 100%; }
   animation: peteFloat 6.4s ease-in-out infinite;
   animation-delay: 0.4s;
 }
+
+.pete-single {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
