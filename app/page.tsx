@@ -65,8 +65,6 @@ function Eyebrow(props: { children: any }) {
 }
 
 export default function Page() {
-
-export default function Page() {
   return (
     <div className="page-shell">
       <header className="site-header">
