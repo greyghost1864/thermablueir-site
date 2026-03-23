@@ -236,7 +236,7 @@ export default function Page() {
                 ))}
               </div>
               <div className="content-card side-card">
-                <img src="/images/pete-explainer.png" alt="Pete guiding the how it works section" className="pete-side-image" />
+              <img src="/images/pete-blueprint.png" alt="Pete holding blueprint" className="pete-image pete-float-b" />
                 <div className="card-title">Pete helps explain, not reveal.</div>
                 <p>
                   Pete supports public understanding. He can point, guide, and simplify. He does not carry
@@ -278,7 +278,7 @@ export default function Page() {
                 ))}
               </div>
               <div className="content-card side-card">
-                <img src="/images/pete-thinking.png" alt="Pete thinking" className="pete-image pete-float-d" />
+               <img src="/images/pete-guide.png" alt="Pete guiding the FAQ" className="pete-image pete-float-c" />
                 <div className="card-title">Pete helps here, too.</div>
                 <p>
                   FAQ is one of the few places where Pete can feel slightly more playful while still supporting
