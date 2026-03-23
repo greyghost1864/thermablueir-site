@@ -51,18 +51,20 @@ const faqs = [
 ];
 
 function SectionImage(props: { src: string; alt: string; className?: string }) {
-  const { src, alt, className = '' } = props
+  const { src, alt, className = '' } = props;
 
   return (
     <div className={`image-card ${className}`.trim()}>
       <img src={src} alt={alt} />
     </div>
-  )
+  );
 }
 
 function Eyebrow(props: { children: any }) {
-  return <div className="eyebrow">{props.children}</div>
+  return <div className="eyebrow">{props.children}</div>;
 }
+
+export default function Page() {
 
 export default function Page() {
   return (
