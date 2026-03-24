@@ -46,9 +46,9 @@ const faqs = [
     a: 'The site is designed to explain the company clearly while protecting proprietary architecture. Public clarity matters, but so does disciplined discretion.',
   },
   {
-    q: "What is Pete's role on the site?",
-    a: "Pete is a selective guide. He adds warmth, clarity, and brand identity in explanatory sections, but he never overpowers the seriousness of the company.",
-  },
+  q: "What is Pete's role on the site?",
+  a: "Pete is a selective guide. He adds warmth, clarity, and brand identity in explanatory sections, but he never overpowers the seriousness of the company.",
+},
 ];
 
 function SectionImage(props: { src: string; alt: string; className?: string }) {
