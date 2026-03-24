@@ -51,7 +51,7 @@ const faqs = [
 },
 ];
 
-function SectionImage(props: { src: string; alt: string; className?: string }) {
+function SectionImage(props: any) {
   const { src, alt, className = '' } = props;
 
   return (
@@ -61,7 +61,7 @@ function SectionImage(props: { src: string; alt: string; className?: string }) {
   );
 }
 
-function Eyebrow(props: { children: any }) {
+function Eyebrow(props: any) {
   return <div className="eyebrow">{props.children}</div>;
 }
 
