@@ -1,3 +1,4 @@
+// build-marker-1
 const navItems = [
   { label: 'Platform', href: '#platform' },
   { label: 'Heating & Air', href: '#heating-air' },
