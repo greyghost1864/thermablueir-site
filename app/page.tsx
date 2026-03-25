@@ -66,7 +66,8 @@ function Eyebrow(props: any) {
 }
 
 export default function Page() {
-  return (
+  return <div className="page-shell">Build test</div>;
+}
     <div className="page-shell">
       <header className="site-header">
         <div className="container header-row">
