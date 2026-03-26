@@ -1,4 +1,4 @@
-// build-marker-1
+
 const navItems = [
   { label: 'Platform', href: '#platform' },
   { label: 'Heating & Air', href: '#heating-air' },
@@ -65,10 +65,6 @@ function Eyebrow(props: any) {
   return <div className="eyebrow">{props.children}</div>;
 }
 
-export default function Page() {
-  return <div className="page-shell">Build test</div>;
-}
-  
 export default function Page() {
   return (
     <div className="page-shell">
