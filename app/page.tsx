@@ -171,7 +171,7 @@ export default function Page() {
                 <SectionImage src="/images/heating-air-control-screen.png" alt="ThermaBlue system control view" />
                 <div className="content-card pete-card">
                   <div className="pete-grid">
-                    <img src="/images/pete-explainer.png?v=2" alt="Pete mascot explaining ThermaBlue" className="pete-image" />
+                    <img src="/images/pete-explainer.png?v=2" alt="Pete mascot explaining ThermaBlue" className="pete-image pete-float-a" />
                     <div>
                       <div className="small-pill">Pete appears here first</div>
                       <div className="card-title">Clear, warm, and selective.</div>
@@ -239,7 +239,7 @@ export default function Page() {
                 ))}
               </div>
               <div className="content-card side-card">
-                <img src="/images/pete-blueprint.png?v=2" alt="Pete guiding the how it works section" className="pete-side-image" />
+                <img src="/images/pete-blueprint.png?v=2" alt="Pete guiding the how it works section" className="pete-side-image pete-float-b" />
                 <div className="card-title">Pete helps explain, not reveal.</div>
                 <p>
                   Pete supports public understanding. He can point, guide, and simplify. He does not carry
@@ -281,7 +281,7 @@ export default function Page() {
                 ))}
               </div>
               <div className="content-card side-card">
-                <img src="/images/pete-guide.png?v=2" alt="Pete guiding the FAQ" className="pete-side-image" />
+                <img src="/images/pete-guide.png?v=2" alt="Pete guiding the FAQ" className="pete-side-image pete-float-c" />
                 <div className="card-title">Pete helps here, too.</div>
                 <p>
                   FAQ is one of the few places where Pete can feel slightly more playful while still supporting
